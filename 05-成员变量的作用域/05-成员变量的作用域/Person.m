@@ -9,6 +9,18 @@
 #import "Person.h"
 
 @implementation Person
+{
+    int _aaa;   //默认@private
+    
+    //main函数无法观测，故main函数依旧无法访问
+    @public
+    int _bbb;
+    
+    //@implementation中不能定义和@interface中同名的成员变量
+    //int _no;
+    
+    
+}
 
 - (void)test
 {
@@ -17,6 +29,8 @@
     _height = 20;
     
     _weight = 50;
+    
+    _aaa = 10;
 }
 
 - (void)setHeight:(int)height

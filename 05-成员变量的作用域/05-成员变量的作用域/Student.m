@@ -1,18 +1,19 @@
 //
-//  Stude.m
+//  Student.m
 //  05-成员变量的作用域
 //
 //  Created by Captain on 2017/11/26.
 //  Copyright © 2017年 captain. All rights reserved.
 //
 
-#import "Stude.h"
+#import "Student.h"
 
-@implementation Stude
+@implementation Student
 
 - (void)study
 {
-    //_height = 10;   // _height is private
+    // _height is private
+    //_height = 10;
     
     [self setHeight:10];
     

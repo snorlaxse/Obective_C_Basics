@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E447EE801FCB111E00134E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E447EE7F1FCB111E00134E5F /* main.m */; };
-		E447EE881FCB112F00134E5F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E447EE871FCB112F00134E5F /* Person.m */; };
-		E447EE8B1FCB144700134E5F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = E447EE8A1FCB144700134E5F /* Student.m */; };
+		E46B00ED1FCD644D00D6C648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46B00EC1FCD644D00D6C648 /* main.m */; };
+		E46B00F51FCD648300D6C648 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E46B00F41FCD648300D6C648 /* Person.m */; };
+		E46B00F81FCDB68E00D6C648 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = E46B00F71FCDB68E00D6C648 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E447EE7A1FCB111E00134E5F /* CopyFiles */ = {
+		E46B00E71FCD644D00D6C648 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E447EE7C1FCB111E00134E5F /* 05-成员变量的作用域 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-成员变量的作用域"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E447EE7F1FCB111E00134E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E447EE861FCB112F00134E5F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		E447EE871FCB112F00134E5F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		E447EE891FCB144700134E5F /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		E447EE8A1FCB144700134E5F /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		E46B00E91FCD644D00D6C648 /* 08-构造方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-构造方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46B00EC1FCD644D00D6C648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E46B00F31FCD648300D6C648 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E46B00F41FCD648300D6C648 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E46B00F61FCDB68E00D6C648 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		E46B00F71FCDB68E00D6C648 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E447EE791FCB111E00134E5F /* Frameworks */ = {
+		E46B00E61FCD644D00D6C648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,101 +44,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E447EE731FCB111E00134E5F = {
+		E46B00E01FCD644D00D6C648 = {
 			isa = PBXGroup;
 			children = (
-				E447EE7E1FCB111E00134E5F /* 05-成员变量的作用域 */,
-				E447EE7D1FCB111E00134E5F /* Products */,
+				E46B00EB1FCD644D00D6C648 /* 08-构造方法 */,
+				E46B00EA1FCD644D00D6C648 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E447EE7D1FCB111E00134E5F /* Products */ = {
+		E46B00EA1FCD644D00D6C648 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E447EE7C1FCB111E00134E5F /* 05-成员变量的作用域 */,
+				E46B00E91FCD644D00D6C648 /* 08-构造方法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E447EE7E1FCB111E00134E5F /* 05-成员变量的作用域 */ = {
+		E46B00EB1FCD644D00D6C648 /* 08-构造方法 */ = {
 			isa = PBXGroup;
 			children = (
-				E447EE7F1FCB111E00134E5F /* main.m */,
-				E447EE891FCB144700134E5F /* Student.h */,
-				E447EE8A1FCB144700134E5F /* Student.m */,
-				E447EE861FCB112F00134E5F /* Person.h */,
-				E447EE871FCB112F00134E5F /* Person.m */,
+				E46B00EC1FCD644D00D6C648 /* main.m */,
+				E46B00F31FCD648300D6C648 /* Person.h */,
+				E46B00F41FCD648300D6C648 /* Person.m */,
+				E46B00F61FCDB68E00D6C648 /* Student.h */,
+				E46B00F71FCDB68E00D6C648 /* Student.m */,
 			);
-			path = "05-成员变量的作用域";
+			path = "08-构造方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E447EE7B1FCB111E00134E5F /* 05-成员变量的作用域 */ = {
+		E46B00E81FCD644D00D6C648 /* 08-构造方法 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E447EE831FCB111E00134E5F /* Build configuration list for PBXNativeTarget "05-成员变量的作用域" */;
+			buildConfigurationList = E46B00F01FCD644D00D6C648 /* Build configuration list for PBXNativeTarget "08-构造方法" */;
 			buildPhases = (
-				E447EE781FCB111E00134E5F /* Sources */,
-				E447EE791FCB111E00134E5F /* Frameworks */,
-				E447EE7A1FCB111E00134E5F /* CopyFiles */,
+				E46B00E51FCD644D00D6C648 /* Sources */,
+				E46B00E61FCD644D00D6C648 /* Frameworks */,
+				E46B00E71FCD644D00D6C648 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "05-成员变量的作用域";
-			productName = "05-成员变量的作用域";
-			productReference = E447EE7C1FCB111E00134E5F /* 05-成员变量的作用域 */;
+			name = "08-构造方法";
+			productName = "08-构造方法";
+			productReference = E46B00E91FCD644D00D6C648 /* 08-构造方法 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E447EE741FCB111E00134E5F /* Project object */ = {
+		E46B00E11FCD644D00D6C648 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = captain;
 				TargetAttributes = {
-					E447EE7B1FCB111E00134E5F = {
+					E46B00E81FCD644D00D6C648 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = E447EE771FCB111E00134E5F /* Build configuration list for PBXProject "05-成员变量的作用域" */;
+			buildConfigurationList = E46B00E41FCD644D00D6C648 /* Build configuration list for PBXProject "08-构造方法" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E447EE731FCB111E00134E5F;
-			productRefGroup = E447EE7D1FCB111E00134E5F /* Products */;
+			mainGroup = E46B00E01FCD644D00D6C648;
+			productRefGroup = E46B00EA1FCD644D00D6C648 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E447EE7B1FCB111E00134E5F /* 05-成员变量的作用域 */,
+				E46B00E81FCD644D00D6C648 /* 08-构造方法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E447EE781FCB111E00134E5F /* Sources */ = {
+		E46B00E51FCD644D00D6C648 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E447EE8B1FCB144700134E5F /* Student.m in Sources */,
-				E447EE881FCB112F00134E5F /* Person.m in Sources */,
-				E447EE801FCB111E00134E5F /* main.m in Sources */,
+				E46B00F51FCD648300D6C648 /* Person.m in Sources */,
+				E46B00ED1FCD644D00D6C648 /* main.m in Sources */,
+				E46B00F81FCDB68E00D6C648 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E447EE811FCB111E00134E5F /* Debug */ = {
+		E46B00EE1FCD644D00D6C648 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -193,7 +193,7 @@
 			};
 			name = Debug;
 		};
-		E447EE821FCB111E00134E5F /* Release */ = {
+		E46B00EF1FCD644D00D6C648 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		E447EE841FCB111E00134E5F /* Debug */ = {
+		E46B00F11FCD644D00D6C648 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		E447EE851FCB111E00134E5F /* Release */ = {
+		E46B00F21FCD644D00D6C648 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +262,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E447EE771FCB111E00134E5F /* Build configuration list for PBXProject "05-成员变量的作用域" */ = {
+		E46B00E41FCD644D00D6C648 /* Build configuration list for PBXProject "08-构造方法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E447EE811FCB111E00134E5F /* Debug */,
-				E447EE821FCB111E00134E5F /* Release */,
+				E46B00EE1FCD644D00D6C648 /* Debug */,
+				E46B00EF1FCD644D00D6C648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E447EE831FCB111E00134E5F /* Build configuration list for PBXNativeTarget "05-成员变量的作用域" */ = {
+		E46B00F01FCD644D00D6C648 /* Build configuration list for PBXNativeTarget "08-构造方法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E447EE841FCB111E00134E5F /* Debug */,
-				E447EE851FCB111E00134E5F /* Release */,
+				E46B00F11FCD644D00D6C648 /* Debug */,
+				E46B00F21FCD644D00D6C648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E447EE741FCB111E00134E5F /* Project object */;
+	rootObject = E46B00E11FCD644D00D6C648 /* Project object */;
 }

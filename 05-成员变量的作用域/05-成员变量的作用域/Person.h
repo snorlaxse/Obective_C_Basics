@@ -11,6 +11,8 @@
  @private : 只能在当前类的对象方法中直接访问（@implementation中默认是@private）
  @protected: 可以在当前类及其子类的对象方法中直接访问（@interface中默认就是@protected）
  @package : 只要处在同一个框架中，就能直接访问对象的成员变量
+ 
+ @interface和@implementation中不能声明同名的成员变量
  */
 #import <Foundation/Foundation.h>
 
@@ -27,6 +29,8 @@
 
     @protected  // 只能在当前类和子类的对象方法中直接访问
     int _weight;
+    int _money;
+    
 }
 
 - (void)setHeight:(int)height;
