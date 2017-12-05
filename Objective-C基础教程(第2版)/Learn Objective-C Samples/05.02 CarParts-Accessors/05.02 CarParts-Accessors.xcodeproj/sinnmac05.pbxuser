@@ -1,0 +1,142 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2BDF1C781161DD7400CC8500 /* 05.02 CarParts-Accessors */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* 05.02 CarParts-Accessors */;
+		codeSenseManager = 2BDF1C811161DD9200CC8500 /* Code sense */;
+		executables = (
+			2BDF1C781161DD7400CC8500 /* 05.02 CarParts-Accessors */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 291626356;
+			PBXWorkspaceStateSaveDate = 291626356;
+		};
+		perUserProjectItems = {
+			2BDF1C911161DE0300CC8500 /* PBXTextBookmark */ = 2BDF1C911161DE0300CC8500 /* PBXTextBookmark */;
+			2BDF1C921161DE0300CC8500 /* PBXTextBookmark */ = 2BDF1C921161DE0300CC8500 /* PBXTextBookmark */;
+			2BDF1C931161DE0300CC8500 /* PBXTextBookmark */ = 2BDF1C931161DE0300CC8500 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2BDF1C801161DD9200CC8500 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* 05.02 CarParts-Accessors.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 2028}}";
+			sepNavSelRange = "{1995, 0}";
+			sepNavVisRange = "{1570, 274}";
+			sepNavWindowFrame = "{{84, 120}, {750, 558}}";
+		};
+	};
+	2BDF1C781161DD7400CC8500 /* 05.02 CarParts-Accessors */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "05.02 CarParts-Accessors";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	2BDF1C801161DD9200CC8500 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2BDF1C811161DD9200CC8500 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2BDF1C911161DE0300CC8500 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* 05.02 CarParts-Accessors_Prefix.pch */;
+		name = "05.02 CarParts-Accessors_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 0;
+	};
+	2BDF1C921161DE0300CC8500 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* 05.02 CarParts-Accessors.m */;
+		name = "05.02 CarParts-Accessors.m: 144";
+		rLen = 0;
+		rLoc = 1995;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 1570;
+	};
+	2BDF1C931161DE0300CC8500 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* 05.02 CarParts-Accessors.m */;
+		name = "05.02 CarParts-Accessors.m: 144";
+		rLen = 0;
+		rLoc = 1995;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 1570;
+	};
+	32A70AAB03705E1F00C91783 /* 05.02 CarParts-Accessors_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 190}";
+			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* 05.02 CarParts-Accessors */ = {
+		activeExec = 0;
+		executables = (
+			2BDF1C781161DD7400CC8500 /* 05.02 CarParts-Accessors */,
+		);
+	};
+}

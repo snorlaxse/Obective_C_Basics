@@ -1,0 +1,124 @@
+T12.03 ITunesFinder
+v7
+r0
+t291872330.514002
+cCheck dependencies
+cProcessPCH "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch.gch" "12.03 ITunesFinder_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.o" "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/ITunesFinder.o" "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/12.03 ITunesFinder" normal i386
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A600BCB0000000000B37450
+t1247808459
+s11760720
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m
+c000000004896E7740000000000000250
+t1217849204
+s592
+i<Foundation/Foundation.h>
+i"ITunesFinder.h"
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder_Prefix.pch
+c000000004896E71C00000000000000B2
+t1217849116
+s178
+i<Foundation/Foundation.h>
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.h
+c000000004896E8D6000000000000005B
+t1217849558
+s91
+i<Foundation/Foundation.h>
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m
+c000000004896E8E60000000000000281
+t1217849574
+s641
+i"ITunesFinder.h"
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.LinkFileList
+c000000004BB566C600000000000001DE
+t1270179526
+s478
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.o
+t1270179530
+s7780
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/ITunesFinder.o
+t1270179530
+s7616
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/12.03 ITunesFinder
+t1270179530
+s14572
+
+N/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch.gch
+t1270179530
+s41744368
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291872326#291872326#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC "build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.o" "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291872330.222137
+e291872330.464430
+r1
+xCompileC
+xbuild/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.o
+x/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@167"Compile /Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m291872330#291872330#0(0"0(0#0#159"/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m4300885448#2814"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-generated-files.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-own-target-headers.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-all-target-headers.hmap" -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-project-headers.hmap" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/include" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/DerivedSources/i386" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/DerivedSources" -include "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch" -c "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder.m" -o "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.o"0#
+
+CCompileC "build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/ITunesFinder.o" "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291872330.223836
+e291872330.433598
+r1
+xCompileC
+xbuild/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/ITunesFinder.o
+x/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@161"Compile /Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m291872330#291872330#0(0"0(0#0#153"/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m4300885448#2802"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-generated-files.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-own-target-headers.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-all-target-headers.hmap" -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-project-headers.hmap" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/include" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/DerivedSources/i386" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/DerivedSources" -include "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch" -c "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/ITunesFinder.m" -o "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/ITunesFinder.o"0#
+
+CLd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/12.03 ITunesFinder" normal i386
+s291872330.464597
+e291872330.513898
+r1
+xLd
+x/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/12.03 ITunesFinder
+xnormal
+xi386
+lSLF07#2@174"Link /Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/12.03 ITunesFinder291872330#291872330#0(0"0(0#0#0"4300885448#1070"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug" -filelist "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/Objects-normal/i386/12.03 ITunesFinder.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -o "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/12.03 ITunesFinder"0#
+
+CProcessPCH "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch.gch" "12.03 ITunesFinder_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291872326.533628
+e291872330.221819
+r1
+xProcessPCH
+x/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch.gch
+x12.03 ITunesFinder_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile 12.03 ITunesFinder_Prefix.pch291872326#291872330#0(0"0(0#0#168"/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder_Prefix.pch4300885448#2581"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-generated-files.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-own-target-headers.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-all-target-headers.hmap" -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/12.03 ITunesFinder-project-headers.hmap" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/Debug/include" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/DerivedSources/i386" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/build/12.03 ITunesFinder.build/Debug/12.03 ITunesFinder.build/DerivedSources" -c "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.03 ITunesFinder/12.03 ITunesFinder_Prefix.pch" -o "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.03 ITunesFinder_Prefix-caamyjwxqfubhrgrxhizzdzkjxyj/12.03 ITunesFinder_Prefix.pch.gch"0#
+

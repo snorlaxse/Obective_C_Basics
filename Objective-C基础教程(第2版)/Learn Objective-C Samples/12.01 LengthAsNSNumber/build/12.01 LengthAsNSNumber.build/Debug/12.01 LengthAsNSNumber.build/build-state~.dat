@@ -1,0 +1,93 @@
+T12.01 LengthAsNSNumber
+v7
+r0
+t291867318.398454
+cCheck dependencies
+cProcessPCH "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.01 LengthAsNSNumber_Prefix-cqqpagordjybwbgdskbhyutwbjnq/12.01 LengthAsNSNumber_Prefix.pch.gch" "12.01 LengthAsNSNumber_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.o" "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/12.01 LengthAsNSNumber" normal i386
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A600BCB0000000000B37450
+t1247808459
+s11760720
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m
+c000000004896DBFA000000000000035A
+t1217846266
+s858
+i<Foundation/Foundation.h>
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber_Prefix.pch
+c000000004896DB2E00000000000000BA
+t1217846062
+s186
+i<Foundation/Foundation.h>
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.LinkFileList
+c000000004BB553320000000000000102
+t1270174514
+s258
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.o
+t1270174517
+s8092
+
+N/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/12.01 LengthAsNSNumber
+t1270174518
+s13936
+
+N/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.01 LengthAsNSNumber_Prefix-cqqpagordjybwbgdskbhyutwbjnq/12.01 LengthAsNSNumber_Prefix.pch.gch
+t1270174517
+s41744368
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291867314#291867314#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC "build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.o" "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291867317.552430
+e291867317.778028
+r1
+xCompileC
+xbuild/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.o
+x/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@175"Compile /Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m291867317#291867317#0(0"0(0#0#167"/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m4300885448#2946"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-generated-files.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-own-target-headers.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-all-target-headers.hmap" -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-project-headers.hmap" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/include" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/DerivedSources/i386" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/DerivedSources" -include "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.01 LengthAsNSNumber_Prefix-cqqpagordjybwbgdskbhyutwbjnq/12.01 LengthAsNSNumber_Prefix.pch" -c "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber.m" -o "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.o"0#
+
+CLd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/12.01 LengthAsNSNumber" normal i386
+s291867317.778180
+e291867318.398379
+r1
+xLd
+x/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/12.01 LengthAsNSNumber
+xnormal
+xi386
+lSLF07#2@182"Link /Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/12.01 LengthAsNSNumber291867317#291867318#0(0"0(0#0#0"4300885448#1106"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug" -filelist "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/Objects-normal/i386/12.01 LengthAsNSNumber.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -o "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/12.01 LengthAsNSNumber"0#
+
+CProcessPCH "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.01 LengthAsNSNumber_Prefix-cqqpagordjybwbgdskbhyutwbjnq/12.01 LengthAsNSNumber_Prefix.pch.gch" "12.01 LengthAsNSNumber_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291867314.054068
+e291867317.552160
+r1
+xProcessPCH
+x/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.01 LengthAsNSNumber_Prefix-cqqpagordjybwbgdskbhyutwbjnq/12.01 LengthAsNSNumber_Prefix.pch.gch
+x12.01 LengthAsNSNumber_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Precompile 12.01 LengthAsNSNumber_Prefix.pch291867314#291867317#0(0"0(0#0#176"/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber_Prefix.pch4300885448#2697"    cd "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-generated-files.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-own-target-headers.hmap" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-all-target-headers.hmap" -iquote "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/12.01 LengthAsNSNumber-project-headers.hmap" "-F/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/Debug/include" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/DerivedSources/i386" "-I/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/build/12.01 LengthAsNSNumber.build/Debug/12.01 LengthAsNSNumber.build/DerivedSources" -c "/Users/sinnmac05/Desktop/iphone电子书集合/Learn Objective-C On The Mac, 2009/Source Code/Learn Objective-C Samples/12.01 LengthAsNSNumber/12.01 LengthAsNSNumber_Prefix.pch" -o "/var/folders/t4/t4beeRQ2EFKgn+3jZelt3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/12.01 LengthAsNSNumber_Prefix-cqqpagordjybwbgdskbhyutwbjnq/12.01 LengthAsNSNumber_Prefix.pch.gch"0#
+
