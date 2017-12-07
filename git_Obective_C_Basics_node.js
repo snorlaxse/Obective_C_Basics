@@ -4,7 +4,7 @@ let path = require('path')
 
 
 
-console.log(path.resolve(__dirname, 'Obective_C_Basics'))
+console.log(path.resolve(__dirname, 'add+commit+push'))
 
 
  let iocmds = [
