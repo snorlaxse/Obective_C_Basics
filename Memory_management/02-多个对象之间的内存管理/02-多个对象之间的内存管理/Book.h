@@ -12,7 +12,9 @@
 {
     int _price;
 }
+
 //@property int price;
+// @property 会屏蔽一些内存管理的细节
 
 - (void)setPrice:(int)price;
 - (int)price;

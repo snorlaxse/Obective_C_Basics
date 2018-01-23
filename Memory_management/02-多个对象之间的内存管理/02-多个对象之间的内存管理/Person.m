@@ -12,7 +12,7 @@
 
 - (void)setBook:(Book *)book
 {
-    _book = [book retain];
+    _book = [book retain]; // 计数器 retain +1 操作
     
 }
 
@@ -25,6 +25,7 @@
 - (void)dealloc
 {
     [_book release];
+    
     NSLog(@"Person对象被回收");
     
     [super dealloc];
