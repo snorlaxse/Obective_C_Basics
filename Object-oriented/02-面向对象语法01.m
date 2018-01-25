@@ -1,14 +1,14 @@
-/*第一个OC程序*/
-#include <stdio.h>
+// /*第一个OC程序*/
+// #include <stdio.h>
 
-int main()
-{
-	printf("第一个OC程序\n", );
-	return 0;
-}
+// int main()
+// {
+// 	printf("第一个OC程序\n");
+// 	return 0;
+// }
 
 /*第2个OC程序*/
-#import <Foundation/Foundation.h>
+// #import <Foundation/Foundation.h>
 
 int main()
 {
