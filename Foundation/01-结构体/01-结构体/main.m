@@ -23,13 +23,17 @@ int main(int argc, const char * argv[])
     // 比较两个点是否相同(x、y)
     BOOL b = CGPointEqualToPoint(CGPointMake(10, 10), CGPointMake(10, 10));
     
-    //CGSizeEqualToSize(CGSize size1, CGSize size2)
-    //CGRectEqualToRect(CGRect rect1, CGRect rect2)
+//    CGPointEqualToPoint(CGPoint point1, CGPoint point2)
+//    CGSizeEqualToSize(CGSize size1, CGSize size2)
+//    CGRectEqualToRect(CGRect rect1, CGRect rect2)
     
     
     // CoreGraphics
     // x ∈ (50, 150)  y ∈ (40, 90)
     NSLog(@"%d", CGRectContainsPoint(CGRectMake(50, 40, 100, 50), CGPointMake(120, 60)));
+    
+    // CGRectContainsRect(CGRect rect1, CGRect rect2)
+    // CGRectContainsPoint(CGRect rect, CGPoint point)
     
     return 0;
 }
@@ -67,11 +71,11 @@ void point()
 
 void range()
 {
-    struct Date {
-        int year ;
-        int month;
-        int day;
-    };
+//    struct Date {
+//        int year ;
+//        int month;
+//        int day;
+//    };
     
     //struct Date d = {2011,9,1};
     
@@ -86,6 +90,6 @@ void range()
     // 若找不到，length=0,location=NSNotFound=-1
     NSRange rang = [str rangeOfString:@"Captain"];
     
-    NSLog(@"loc = %d,length = %ld",rang.location,rang.length);
+    NSLog(@"loc = %ld,length = %ld",rang.location,rang.length);
     
 }

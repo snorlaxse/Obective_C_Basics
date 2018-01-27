@@ -17,9 +17,7 @@
 
 int main(int argc, const char * argv[])
 {
-    NSMutableString *s1 = [NSMutableString stringWithFormat:@"age is %d ",10];
-    // 拼接内容到s1的后面
-    [s1 appendString:@"11 12"];
+    
     // 获取is的范围
 //    NSRange rang = [s1 rangeOfString:@"is"];
 //    [s1 deleteCharactersInRange:rang];
