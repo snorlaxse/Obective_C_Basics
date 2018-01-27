@@ -83,7 +83,7 @@ CGRectContainsPoint(CGRect rect, CGPoint point)
 
 
 
-##### 3. 字符串拼接
+##### 3. 字符串的拼接
 
 ```
 NSMutableString *s1 = [NSMutableString stringWithFormat:@"age is %d ",10];  // 可变(长)字符串
@@ -134,7 +134,7 @@ NSLog(@"%@", [array3 objectAtIndex:0]);
 NSLog(@"%@", array3[1]);
 ```
 
-#####  4. 遍历
+#####  4. NSArray的遍历
 
 1> for statement
 
@@ -168,6 +168,205 @@ NSLog(@"%@", array3[1]);
              // 停止遍历
              *stop = YES;
          }
+     }];
+```
+
+##### 5. NSMutableArray
+
+```
+    NSMutableArray *array0 = [NSMutableArray array]; // 空数组
+    
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@"Captain",@"Jack", nil];
+    
+    // 添加元素
+    [array addObject: [[Person alloc] init]];
+    
+    [array addObject:@"1234567"];
+    
+    // 错误写法
+    //[array addObject:10];
+    
+    // 删除元素
+    //[array removeAllObjects];
+    
+    // 删除指定对象
+    [array removeObject:@"Jack"];
+    
+    [array removeObjectAtIndex:2];
+```
+
+#### NSSet
+
+##### 1. NSSet的基本使用
+
+```
+	NSSet *s = [NSSet set];
+    
+    NSSet *s2 = [NSSet setWithObjects:@"Captain",@"Micheal",@"Jack",@"Hahaha", nil];
+    
+    // NSLog(@"%@",s2);
+    
+    // 随机取出一个元素
+    NSString *str = [s2 anyObject];
+```
+
+##### 2. NSMutableSet基本使用
+
+```
+NSMutableSet *s = [NSMutableSet set];
+    
+    // 添加元素
+    [s addObject:@"Hadoop"];
+    [s addObject:@"Spark"];
+    
+    // 删除元素
+    //[s removeAllObjects];
+    [s removeObject:@"Hadoop"];
+```
+
+##### 3.  NSSet和NSArray的对比
+
+```
+ 1> 共同点
+ * 都是集合，都能存放多个OC对象
+ * 只能存放OC对象，不能存放非OC对象类型(基本数据类型: int\char\float等，结构体，枚举)
+ * 本身都不可变，都有一个可变的子类
+ 
+ 2> 不同点
+ * NSArray有顺序，NSSet没有顺序
+```
+
+
+
+#### NSDictionary
+
+```
+理解:
+key ---> value
+索引 ---> 文字内容
+     
+字典内存储的东西都是键值对<key, value>
+```
+
+##### 1. NSDictionary的创建
+
+```
+    NSDictionary *dict = [NSDictionary dictionaryWithObject:@"Captain" forKey:@"name"];
+    
+    
+    NSArray *keys = @[@"name",@"address"];
+    NSArray *objects = @[@"Captain",@"浙江"];
+    NSDictionary *dict = [NSDictionary dictionaryWithObjects:objects forKeys:keys];
+    
+    
+    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+    		@"Captain",@"name",
+    		@"浙江",@"address",
+            @"898978769",@"QQ",nil];
+   
+    // 快速创建
+    NSDictionary *dict = @{@"name": @"Captain",@"address": @"浙江",@"QQ" : @"898978769"};
+    
+```
+
+##### 2. NSDictionary元素访问
+
+```
+    id obj = [dict objectForKey:@"QQ"];
+    id obj = dict[@"QQ"];
+    
+    NSLog(@"%@", obj);
+    
+    // 返回的是键值对的个数
+    NSLog(@"%ld",dict.count);
+```
+
+```
+   NSArray *persons =  @[
+      @{ @"name" : @"Captain", @"address" : @"浙江", @"QQ" : @"87654321",@"books" : @[@"5分钟突破iOS编程",@"5分钟突破Android编程"]},
+      @{ @"name" : @"Micheal", @"address" : @"浙江", @"QQ" : @"87654322"},
+      @{ @"name" : @"Jack", @"address" : @"北京", @"QQ" : @"87654323"},
+      @{ @"name" : @"Rose", @"address" : @"上海", @"QQ" : @"87654324"}
+      ];
+    
+    //NSDictionary *Micheal = persons[1];
+    //NSLog(@"%@",Micheal);
+    
+    // 先取出1位置对应的字典
+    // 再取出该字典中name这个key对应的数据value(Micheal)
+    //NSLog(@"%@",persons[1][@"name"]);  // persons[1][@"name"] == Micheal[@"name"]
+    
+    //NSArray *array = persons[0][@"books"];
+    //NSLog(@"%@", array);
+    
+    NSLog(@"%@",persons[0][@"books"][0]);
+```
+
+
+
+##### 3.NSMutableDictionary
+
+```
+	NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    
+    // 添加键值对
+    [dict setObject:@"Captain" forKey:@"name"];
+    
+    [dict setObject:@"浙江(ZJ)" forKey:@"address"];
+    
+    // @"Micheal"将覆盖@"Captain"
+    [dict setObject:@"Micheal" forKey:@"name"];
+    
+    // 移除键值对
+    // [dict removeObjectForKey:(nonnull id)];
+    
+    //NSString *str = dict[@"name"];
+    //NSLog(@"%@", str);
+    
+    NSLog(@"%@",dict);
+```
+
+```
+/* 错误写法
+
+	NSMutableDictionary *dict = @{@"name" : @"Captain"};
+     
+     [dict setObject:@"rose" forKey:@"name"];
+     
+ */
+```
+
+##### 4. NSDictionary的遍历
+
+```
+	// 字典不允许有相同的key，但允许有相同的value(Object)
+    NSDictionary *dict = @{
+                           @"name" : @"Captain",
+                           @"name2" : @"Captain",
+                           @"name3" : @"Captain",
+                           @"address" : @"浙江",
+                           @"QQ" : @"87654321"};
+    
+    
+    /* for Statement方法 遍历
+     NSArray *keys = [dict allKeys];     // 字典没有顺序
+     //NSLog(@"%@",keys);
+     
+     for (int i = 0; i<dict.count; i++)
+     {
+     NSString *key = keys[i];
+     NSString *object = dict[key];
+     
+     NSLog(@"%@ - %@",key,object);
+     }
+     */
+    
+    // block 方法遍历
+    [dict enumerateKeysAndObjectsUsingBlock:
+     ^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+         NSLog(@"%@ - %@",key,obj);
+         
+         // *stop = YES;
      }];
 ```
 
