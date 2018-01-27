@@ -65,8 +65,8 @@ CGRectContainsPoint(CGRect rect, CGPoint point)
  
  NSString *s5 = [[NSString alloc] initWithContentsOfFile:@"/Users/Captain/Desktop/02-NSString.txt" encoding:NSUTF8StringEncoding error:nil]; 
     
-  NSURL *url = [[NSURL alloc] initWithString:@"http://www.baidu.com"];
-  NSString *s6 = [[NSString alloc] initWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+ NSURL *url = [[NSURL alloc] initWithString:@"http://www.baidu.com"];
+ NSString *s6 = [[NSString alloc] initWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
 ```
 
 
@@ -74,7 +74,7 @@ CGRectContainsPoint(CGRect rect, CGPoint point)
 ##### 2. 字符串的导出
 
 ```
-[@"Captain\nCaptain" writeToFile:@"/Users/Captain/Desktop/02-NSString.txt" atomically:YES encoding:NSUTF8StringEncoding error:nil];
+ [@"Captain\nCaptain" writeToFile:@"/Users/Captain/Desktop/02-NSString.txt" atomically:YES encoding:NSUTF8StringEncoding error:nil];
 
  NSString *str = @"234567";
  NSURL *url = [NSURL fileURLWithPath:@"/Users/Captain/Desktop/02-NSString2.txt"];
@@ -156,7 +156,7 @@ NSLog(@"%@", array3[1]);
 2> block statement 
 
 ```
-[array enumerateObjectsUsingBlock:
+    [array enumerateObjectsUsingBlock:
      
      // 每遍历到一个元素，就会调用一次block
      // 并且当前元素和索引位置当做参数传给block
@@ -213,7 +213,7 @@ NSLog(@"%@", array3[1]);
 ##### 2. NSMutableSet基本使用
 
 ```
-NSMutableSet *s = [NSMutableSet set];
+    NSMutableSet *s = [NSMutableSet set];
     
     // 添加元素
     [s addObject:@"Hadoop"];
@@ -282,7 +282,7 @@ key ---> value
 ```
 
 ```
-   NSArray *persons =  @[
+    NSArray *persons =  @[
       @{ @"name" : @"Captain", @"address" : @"浙江", @"QQ" : @"87654321",@"books" : @[@"5分钟突破iOS编程",@"5分钟突破Android编程"]},
       @{ @"name" : @"Micheal", @"address" : @"浙江", @"QQ" : @"87654322"},
       @{ @"name" : @"Jack", @"address" : @"北京", @"QQ" : @"87654323"},
@@ -327,13 +327,13 @@ key ---> value
 ```
 
 ```
-/* 错误写法
+    /* 错误写法
 
 	NSMutableDictionary *dict = @{@"name" : @"Captain"};
      
-     [dict setObject:@"rose" forKey:@"name"];
+    [dict setObject:@"rose" forKey:@"name"];
      
- */
+    */
 ```
 
 ##### 4. NSDictionary的遍历
@@ -413,5 +413,54 @@ key ---> value
     
     NSArray *array = @[value];
   
+```
+
+#### NSDate
+
+##### 1.NSDate基本使用
+
+```
+	// 创建一个时间对象
+    NSDate *date = [NSDate date];
+    
+    // 打印出的时间是当前时间
+    NSLog(@"%@",date);
+    
+    NSDate *date2 = [NSDate dateWithTimeInterval:5 sinceDate:date];  // 单位: s
+    
+    // 从1970开始走过的秒数
+    NSTimeInterval seconds = [date2 timeIntervalSince1970];
+    
+    //[date2 timeIntervalSinceNow];
+```
+
+##### 2. 日期格式化类
+
+```
+	NSDate *date = [NSDate date];
+    
+    // 日期格式化类
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    // y年 M月 d日
+    // m分 s秒 H (24)时 h (12)时
+    formatter.dateFormat = @"yyy-MM-dd HH:mm:ss";
+    
+    // NSDate  --->  NSString
+    NSString *str = [formatter stringFromDate:date];
+    
+    NSLog(@"%@",str);
+```
+
+```
+	// NSString ---> NSDate
+	NSString *time = @"2018/01/28 01:12";
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyyy/MM/dd HH:mm";
+    
+    NSDate *date = [formatter dateFromString:time];
+    
+    NSLog(@"%@",date);
 ```
 
