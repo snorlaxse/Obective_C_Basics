@@ -370,3 +370,48 @@ key ---> value
      }];
 ```
 
+#### NSNumber
+
+##### NSNumber的创建
+
+```
+ 	NSNumber *num = [NSNumber numberWithInteger:10];
+ 
+ 	// @20 将 20 包装成一个NSNumber对象
+ 	// 即 [NSNumber numberWithInteger:20] == @20
+ 	
+ 	// 将各种基本数据类型包装成NSNumber对象
+    @10.5;
+    @YES;
+    @'A';     // NSNumber对象
+    
+    @"A";   // 注:NSString对象
+```
+
+```
+	// NSNumber ---> int
+	NSNumber *num = [NSNumber numberWithInteger:10];
+    int a = [num intValue];
+ 
+    // NSNumber --->  Double
+    NSNumber *n = [NSNumber numberWithDouble:10.5];
+    int d = [n doubleValue];
+```
+
+#### NSValue
+
+```
+   // 结构体 ---> OC 对象
+    
+    CGPoint p = CGPointMake(10, 10);
+    
+    // 将结构体转换为Value对象
+    NSValue *value = [NSValue valueWithPoint:p];
+    
+    // 将value转换为相应的结构体
+    //[value pointerValue];
+    
+    NSArray *array = @[value];
+  
+```
+
