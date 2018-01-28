@@ -63,7 +63,7 @@
 
 - 其实，每当显示一个新界面时，首先会创建一个新的UIViewController对象，然后创建一个对应的全屏UIView，UIViewController负责管理这个UIView
 
-- UIViewController就是UIView的大管家，负责创建、显示、销毁UIView，负责监听UIView内部的事件，负责处理UIView与用户的交互
+- UIViewController就是UIView的大管家，***负责创建、显示、销毁UIView***，***负责监听UIView内部的事件***，负责处理UIView与用户的交互
 
 - UIViewController内部有个UIView属性，就是它负责管理的UIView对象 :
 
@@ -85,11 +85,13 @@
 
   1.读取Main.storyboard文件
 
-  2.创建箭头所指的MJViewController对象
+  2.创建箭头所指的***MJViewController对象***
 
-  3.根据storyboard文件中描述创建MJViewController的UIView对象
+  3.根据storyboard文件中描述创建MJViewController的***UIView对象***
 
-  4.将UIView对象显示到用户眼前
+  4.将UIView对象***显示***到用户眼前
+
+
 
 
 
@@ -101,16 +103,20 @@
 
 
 
+
+
 #### IBAction和IBOutlet
 
 - IBAction
   - 从返回值角度上看，作用相当于void
-  - 只有返回值声明为IBAction的方法，才能跟storyboard中的控件进行连线
+  - 只有返回值声明为IBAction的***方法***，才能跟storyboard中的控件进行连线
 
 
 
 - IBOutlet
-  - 只有声明为IBOutlet的属性，才能跟storyboard中的控件进行连线
+  - 只有声明为IBOutlet的***属性***，才能跟storyboard中的控件进行连线
+
+
 
 
 
