@@ -24,7 +24,7 @@
     
     //NSLog(@"viewdidload----------");
     
-    //1. 创建按钮
+    // 1. 创建按钮
     // 1.1 创建
     UIButton *btn = [[UIButton alloc] init];
     // 1.2 设置按钮的尺寸和位置
