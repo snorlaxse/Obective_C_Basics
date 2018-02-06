@@ -53,8 +53,7 @@
     _imageNo.text = [NSString stringWithFormat:@"%.f/12",sender.value + 1]; // value 从 0 开始
     
     // 3.设置描述
-    int no = (int)(sender.value + 0.5);   // 慢半拍
-    NSLog(@"%d - %f",no,sender.value);
+    int no = (int)(sender.value + 0.5);
     _imageDesc.text = _allDescs[no];
     
 }
