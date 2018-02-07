@@ -6,6 +6,14 @@
 //  Copyright © 2018年 captain. All rights reserved.
 //
 
+/*
+ // 1. 有缓存 (无法释放，参数传的是文件名)
+ [UIImage imageNamed:(nonnull NSString *)];
+ 
+ // 2.无缓存 (用完就会释放，参数传的是全路径)
+ [[UIImage alloc] initWithContentsOfFile:(nonnull NSString *)];
+ */
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -18,6 +26,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     // 1. 获得tom.plist的全路径
@@ -45,8 +54,14 @@
         // 图片名
         NSString *name = [NSString stringWithFormat:@"%@_%02d.jpg",filename,i];
         
+        // 全路径
+        NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:nil];
+        
         // 加载图片 (缓存)
-        UIImage *img = [UIImage imageNamed:name];
+        //UIImage *img = [UIImage imageNamed:name];   // 谨慎使用(此方法加载图片后不释放)
+        
+        // 无缓存
+        UIImage *img = [[UIImage alloc] initWithContentsOfFile:path];
         
         [images addObject:img];
     }
