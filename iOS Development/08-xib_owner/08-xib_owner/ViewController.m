@@ -53,7 +53,8 @@
     blueView.center = CGPointMake(375 * 0.5, 110);
     
     [self.view addSubview:blueView];
-    
+ 
+
 }
 
 - (void)leftClick
@@ -70,6 +71,31 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//- (nullable NSArray *)loadNibNamed:(NSString *)name owner:(nullable id)owner options:(nullable NSDictionary *)options
+//{
+//    // 解析MyView.xib文件 --- XML
+//    
+//    // 创建Objects下面的所有对象
+//    // 创建View
+//    UIView *blue = [[UIView alloc] init];
+//    blue.backgroundColor = [UIColor blueColor];
+//    // ...设置View其他属性
+//
+//    // 创建按钮
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    [btn setTitle:@"我是按钮" forState:UIControlStateNormal];
+//    [btn addTarget:owner action:@selector(btnClick) forControlEvents:(UIControlEventTouchUpInside)];
+//    // ...设置Button其他属性
+//    
+//    [blue addSubview:btn];
+//    
+//    // 创建文本输入框
+//    UITextField *field = [[UITextField alloc] init];
+//    // ...设置field其他属性
+//
+//    return @[blue,field];
+//}
 
 
 @end

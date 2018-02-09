@@ -13,5 +13,9 @@
 - (void)hello
 {
     NSLog(@"%d岁的Person......",_age);
+    
 }
+
+
+
 @end
