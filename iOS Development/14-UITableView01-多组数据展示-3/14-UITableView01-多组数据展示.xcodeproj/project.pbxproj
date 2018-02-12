@@ -15,6 +15,7 @@
 		E4E386452031666600E0533D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E386442031666600E0533D /* main.m */; };
 		E4E3864F2031666600E0533D /* _4_UITableView01_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E3864E2031666600E0533D /* _4_UITableView01_______Tests.m */; };
 		E4E3865A2031666600E0533D /* _4_UITableView01_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E386592031666600E0533D /* _4_UITableView01_______UITests.m */; };
+		E4E386692031D1F500E0533D /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E386682031D1F500E0533D /* Province.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E4E386552031666600E0533D /* 14-UITableView01-多组数据展示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14-UITableView01-多组数据展示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E386592031666600E0533D /* _4_UITableView01_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_UITableView01_______UITests.m"; sourceTree = "<group>"; };
 		E4E3865B2031666600E0533D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E386672031D1F500E0533D /* Province.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		E4E386682031D1F500E0533D /* Province.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E4E386362031666600E0533D /* AppDelegate.m */,
 				E4E386382031666600E0533D /* ViewController.h */,
 				E4E386392031666600E0533D /* ViewController.m */,
+				E4E386672031D1F500E0533D /* Province.h */,
+				E4E386682031D1F500E0533D /* Province.m */,
 				E4E3863B2031666600E0533D /* Main.storyboard */,
 				E4E3863E2031666600E0533D /* Assets.xcassets */,
 				E4E386402031666600E0533D /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				E4E3863A2031666600E0533D /* ViewController.m in Sources */,
 				E4E386452031666600E0533D /* main.m in Sources */,
 				E4E386372031666600E0533D /* AppDelegate.m in Sources */,
+				E4E386692031D1F500E0533D /* Province.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

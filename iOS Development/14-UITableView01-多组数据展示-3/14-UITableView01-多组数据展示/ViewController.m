@@ -7,11 +7,7 @@
 //
 
 #import "ViewController.h"
-
-// 省份字典中用到的key
-#define kHeader @"header"
-#define kFooter @"footer"
-#define kCities @"cities"
+#import "Province.h"
 
 @interface ViewController ()    <UITableViewDataSource>
 {
@@ -35,33 +31,33 @@
     [self.view addSubview: tableView];
     
     // 2. 初始化数据
-    _allProvince = @[
-                     @{
-                         kHeader : @"浙江",
-                         kFooter : @"(∩_∩)",
-                         kCities : @[@"杭州",@"宁波",@"温州",@"余姚"]
-                         },
-                     @{
-                         kHeader : @"陕西",
-                         kFooter : @"O_~",
-                         kCities : @[@"西安",@"延安",@"韩城",@"渭南"]
-                         },
-                     @{
-                         kHeader : @"江苏",
-                         kFooter : @"^O^ ",
-                         kCities : @[@"南京",@"扬州",@"无锡",@"苏州"]
-                         },
-                     @{
-                         kHeader : @"山东",
-                         kFooter : @"(⊙o⊙)",
-                         kCities : @[@"济南",@"青岛",@"威海",@"烟台"]
-                         },
-                     @{
-                         kHeader : @"安徽",
-                         kFooter : @"QAQ",
-                         kCities : @[@"合肥",@"芜湖",@"蚌埠",@"淮南"]
-                         }
-                     ];
+    // 浙江(模型对象，数据对象，Model，仅仅用来存放数据的对象)
+    Province *zj = [[Province alloc] init];
+    zj.header = @"浙江";
+    zj.footer = @"(∩_∩)";
+    zj.cities = @[@"杭州",@"宁波",@"温州",@"余姚"];
+    
+    Province *sx = [[Province alloc] init];
+    sx.header = @"陕西";
+    sx.footer = @"O_~";
+    sx.cities = @[@"西安",@"延安",@"韩城",@"渭南"];
+    
+    Province *js = [[Province alloc] init];
+    js.header = @"江苏";
+    js.footer = @"^O^ ";
+    js.cities = @[@"南京",@"扬州",@"无锡",@"苏州"];
+    
+    Province *sd = [[Province alloc] init];
+    sd.header =  @"江苏";
+    sd.footer =  @"^O^ ";
+    sd.cities =  @[@"南京",@"扬州",@"无锡",@"苏州"];
+    
+    Province *ah = [[Province alloc] init];
+    ah.header = @"安徽";
+    ah.footer = @"QAQ";
+    ah.cities = @[@"合肥",@"芜湖",@"蚌埠",@"淮南"];
+    
+    _allProvince = @[zj,sx,js,sd,ah];
 
     
 }
@@ -78,10 +74,10 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // 1. 取得第section组的省份名
-    NSDictionary *province =  _allProvince[section];
+    Province *province =  _allProvince[section];
     
     // 2. 取出省份对应的城市名
-    NSArray *cities = province[@"cities"];
+    NSArray *cities = province.cities;
     
     // 3. 城市的个数
     return cities.count;
@@ -96,9 +92,8 @@
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:nil];
     
     // 1.取出第section组的第row行的文字数据
-    NSDictionary *province =  _allProvince[indexPath.section];
-    NSArray *cities = province[kCities];
-    NSString *text = cities[indexPath.row];
+    Province *province =  _allProvince[indexPath.section];
+    NSString *text = province.cities[indexPath.row];
     
     // 2.展示文字数据
     cell.textLabel.text = text;
@@ -109,15 +104,15 @@
 #pragma mark 第section组显示的头部标题
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    NSDictionary *province =  _allProvince[section];
-    NSString *header = province[kHeader];
-    return header;
+    Province *province =  _allProvince[section];
+    
+    return province.header;
 }
 
 #pragma mark 第section组显示的尾部标题
 -(NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
 {
     
-    return  _allProvince[section][kFooter];
+    return  [_allProvince[section] footer];
 }
 @end
