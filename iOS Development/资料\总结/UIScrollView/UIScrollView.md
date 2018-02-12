@@ -75,3 +75,35 @@
    2. B要遵守协议，实现相应方法
    3. A中要定义一个代理属性`id<协议> delegate`
    4. 创建B对象，设置A的delegate属性为B对象
+
+
+
+### 三、键盘的简单处理
+
+1. 退出键盘
+
+```
+    // 响应者: 能处理事件的对象
+    // 第一响应者: 此时,调出键盘的文本框
+    
+    // 退出键盘
+    //[_nameField resignFirstResponder];
+    //[_phoneField resignFirstResponder];
+    //[_addressField resignFirstResponder];
+    
+    // self.view 内部所有子控件(文本框)都会退出键盘
+    [self.view endEditing:YES];
+```
+
+2. 自定义键盘
+
+```
+    // 设置键盘顶部显示的工具条
+    _nameField.inputAccessoryView = keyboardTool;
+    _phoneField.inputAccessoryView = keyboardTool;
+    _addressField.inputAccessoryView = keyboardTool;
+    
+    // 自定义键盘内容样式
+    //_nameField.inputView
+```
+
