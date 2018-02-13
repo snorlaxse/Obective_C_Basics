@@ -32,30 +32,18 @@
     
     // 2. 初始化数据
     // 浙江(模型对象，数据对象，Model，仅仅用来存放数据的对象)
-    Province *zj = [[Province alloc] init];
-    zj.header = @"浙江";
-    zj.footer = @"(∩_∩)";
-    zj.cities = @[@"杭州",@"宁波",@"温州",@"余姚"];
+    Province *zj = [Province provinceWithHeader:@"浙江" footer:@"(∩_∩)" andCities:@[@"杭州",@"宁波",@"温州",@"余姚"]];
     
-    Province *sx = [[Province alloc] init];
-    sx.header = @"陕西";
-    sx.footer = @"O_~";
-    sx.cities = @[@"西安",@"延安",@"韩城",@"渭南"];
+    Province *sx = [Province provinceWithHeader:@"陕西" footer:@"O_~" andCities: @[@"西安",@"延安",@"韩城",@"渭南"]];
     
-    Province *js = [[Province alloc] init];
-    js.header = @"江苏";
-    js.footer = @"^O^ ";
-    js.cities = @[@"南京",@"扬州",@"无锡",@"苏州"];
+    Province *js = [Province provinceWithHeader:@"江苏" footer:@"^O^ " andCities:@[@"南京",@"扬州",@"无锡",@"苏州"]];
+   
+    Province *sd = [Province provinceWithHeader: @"山东" footer:@"(⊙o⊙)" andCities:@[@"济南",@"青岛",@"威海",@"烟台"]];
     
-    Province *sd = [[Province alloc] init];
-    sd.header =  @"江苏";
-    sd.footer =  @"^O^ ";
-    sd.cities =  @[@"南京",@"扬州",@"无锡",@"苏州"];
-    
-    Province *ah = [[Province alloc] init];
-    ah.header = @"安徽";
-    ah.footer = @"QAQ";
-    ah.cities = @[@"合肥",@"芜湖",@"蚌埠",@"淮南"];
+    Province *ah = [Province provinceWithHeader:@"安徽" footer:@"QAQ" andCities:@[@"合肥",@"芜湖",@"蚌埠",@"淮南"]];
+    //ah.header = @"安徽";
+    //ah.footer = @"QAQ";
+    //ah.cities = @[@"合肥",@"芜湖",@"蚌埠",@"淮南"];
     
     _allProvince = @[zj,sx,js,sd,ah];
 
