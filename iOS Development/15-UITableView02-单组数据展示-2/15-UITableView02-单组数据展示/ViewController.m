@@ -109,7 +109,7 @@
     // 设置样式（一个明文文本框）
     [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
         
-        textField.placeholder = @"请输入用户名" ;
+        //textField.placeholder = @"请输入用户名" ;
         
         // 设置文本框的默认文字
         textField.text = shop.name;
