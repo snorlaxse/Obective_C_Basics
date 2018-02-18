@@ -47,7 +47,7 @@
     
     // 2.如果缓存池中没有可循环利用的cell
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:ID];
+        /*UITableViewCell *cell */cell = [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:ID];
     }
     
     cell.textLabel.text = [NSString stringWithFormat:@"第%ld行数据",indexPath.row];
