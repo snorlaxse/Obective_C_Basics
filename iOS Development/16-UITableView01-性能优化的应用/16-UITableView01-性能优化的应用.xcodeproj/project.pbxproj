@@ -16,6 +16,7 @@
 		E4D6C4B8203880170016C9D8 /* _6_UITableView01________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6C4B7203880170016C9D8 /* _6_UITableView01________Tests.m */; };
 		E4D6C4C3203880180016C9D8 /* _6_UITableView01________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6C4C2203880180016C9D8 /* _6_UITableView01________UITests.m */; };
 		E4D6C4D12039CA190016C9D8 /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4D6C4D02039CA190016C9D8 /* shops.plist */; };
+		E4D6C4D42039D1540016C9D8 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6C4D32039D1540016C9D8 /* Shop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E4D6C4C2203880180016C9D8 /* _6_UITableView01________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_UITableView01________UITests.m"; sourceTree = "<group>"; };
 		E4D6C4C4203880180016C9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4D6C4D02039CA190016C9D8 /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shops.plist; sourceTree = "<group>"; };
+		E4D6C4D22039D1540016C9D8 /* Shop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		E4D6C4D32039D1540016C9D8 /* Shop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				E4D6C4A9203880170016C9D8 /* LaunchScreen.storyboard */,
 				E4D6C4AC203880170016C9D8 /* Info.plist */,
 				E4D6C4AD203880170016C9D8 /* main.m */,
+				E4D6C4D22039D1540016C9D8 /* Shop.h */,
+				E4D6C4D32039D1540016C9D8 /* Shop.m */,
 				E4D6C4D02039CA190016C9D8 /* shops.plist */,
 			);
 			path = "16-UITableView01-性能优化的应用";
@@ -272,6 +277,7 @@
 				E4D6C4A3203880170016C9D8 /* ViewController.m in Sources */,
 				E4D6C4AE203880170016C9D8 /* main.m in Sources */,
 				E4D6C4A0203880170016C9D8 /* AppDelegate.m in Sources */,
+				E4D6C4D42039D1540016C9D8 /* Shop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
