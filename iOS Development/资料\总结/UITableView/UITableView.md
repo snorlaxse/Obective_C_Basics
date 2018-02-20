@@ -51,6 +51,8 @@
     NSArray *paths = @[indexPath];
     [_tableView reloadRowsAtIndexPaths:paths withRowAnimation:(UITableViewRowAnimationLeft)];
 
+	注：不管是局部刷新or整体刷新，原理都是：
+	UITableView重新向数据源(dataSource)和代理(delegate)发送相应的消息，最终将得到的数据展示出来
 ```
 
 ##### 5. 性能优化
@@ -97,6 +99,15 @@
 #pragma mark 取消选中了某一行就会调用
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
 ```
+
+##### 7. 修改Cell的状态
+
+1. 最好***通过"修改模型数据"来修改Cell的状态***
+2. 修改步骤
+   1. 修改模型数据
+   2. 刷新表格
+      1. 整体刷新：`reloadData`
+      2. 局部刷新：`reloadRowsAtIndexPaths:`
 
 
 

@@ -57,6 +57,15 @@
 #pragma mark 行数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    // 显示“选中数”
+    if (_deleteShops.count) {
+        _trashItem.enabled = YES;
+        _selectedLabel.text = [NSString stringWithFormat:@"选中(%lu)",(unsigned long)_deleteShops.count];
+    }else{  // 未选中任一cell
+        _trashItem.enabled = NO;
+        _selectedLabel.text = [NSString stringWithFormat:@"选中(0)"];
+    }
+    
     return _shops.count;
 }
 
@@ -96,6 +105,7 @@
     cell.detailTextLabel.text = s.desc;
     
     
+
     return cell;
 }
 
@@ -118,19 +128,23 @@
     // 0.取消选中这一行（去掉cell默认的蓝色背景）
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    //  1.取出indexPath这行对应的cell
-    
+//    取出indexPath这行对应的cell
 //    直接将所选行“打钩”  缺陷: 因为cell是循环利用的，即将出现的相应cell亦被"打钩"
 //    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
 //    selectedCell.accessoryType = UITableViewCellAccessoryCheckmark;
     
+    // 1.控制当前行的数据是否需要选中
     Shop *s = _shops[(int)indexPath.row];   // 注：虽然可视范围中利用的是循环利用的cell，但其数据各不相同，可借此作为判断(比较)的依据
-    [_deleteShops addObject:s];
+    if ([_deleteShops containsObject:s]) {  // 二次选中,清除"打钩状态"
+        [_deleteShops removeObject:s];
+    }else{  // 首(奇数)次选中,添加"打钩"状态
+        [_deleteShops addObject:s];
+    }
     
     // 2.刷新表格
     [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:(UITableViewRowAnimationFade)];     // 刷新所选cell -- 添加"打钩"效果
     
-    
+
 }
  
 
@@ -139,11 +153,86 @@
 //{
 //}
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark 删除数据
+- (IBAction)remove:(id)sender {
+    // 0.获得所要删除数据的行号
+    NSMutableArray *deletePaths = [NSMutableArray array];
+    for (Shop *s in _deleteShops) {
+        NSInteger row = [_shops indexOfObject:s];
+        NSIndexPath *path = [NSIndexPath indexPathForRow:row inSection:0];
+        [deletePaths addObject:path];
+    }
+    
+    // 1.删除模型数据(将_deleteShops中的所有对象元素从_shops中删除)
+    [_shops removeObjectsInArray:_deleteShops];
+    
+    // 2.清空_deleteShops(清空已经删除的数据)
+    [_deleteShops removeAllObjects];
+    
+    // 3.刷新表格
+    //[_tableView reloadData];
+    [_tableView deleteRowsAtIndexPaths:deletePaths withRowAnimation:(UITableViewRowAnimationTop)];
+    
+    // 4.更改标题
+    //_selectedLabel.text = [NSString stringWithFormat:@"选中(0)"];
+    
+    // 5.让_trashItem不能被点击
+    //_trashItem.enabled = NO;
 }
 
+- (IBAction)selectAll:(id)sender
+{
+    if (_deleteShops.count == _shops.count) {
+        // 全不选
+        [_deleteShops removeAllObjects];
+        
+        _trashItem.enabled = NO;
+        
+        
+    }else{
+        // 全选
+        _trashItem.enabled = YES;
+        
+        for (Shop *s  in _shops) {
+            if (![_deleteShops containsObject:s]) {
+             [_deleteShops addObject:s];
+            }
+        }
+        
+        
+    }
+  
+    // 刷新表格
+    [_tableView reloadData];
+    
+    
+    //NSLog(@"%@ - %lu",_deleteShops,(unsigned long)_deleteShops.count);
+   
+}
 
+- (IBAction)selectOthers:(UIBarButtonItem *)sender
+{
+    if (_deleteShops.count == _shops.count || _deleteShops.count == 0) {    // 全选 or 全不选
+        [self selectAll:nil];
+       
+    }else{  // 正常反选情况
+
+        NSMutableArray *others = [NSMutableArray array];
+        for (Shop *s in _shops) {
+            if (![_deleteShops containsObject:s]) {
+                [others addObject:s];
+            }
+            
+        }
+        
+        // 取消现选项
+        [_deleteShops removeAllObjects];
+        
+        // 反选
+        [_deleteShops addObjectsFromArray:others];
+    }
+    
+    // 刷新表格
+    [_tableView reloadData];
+}
 @end
