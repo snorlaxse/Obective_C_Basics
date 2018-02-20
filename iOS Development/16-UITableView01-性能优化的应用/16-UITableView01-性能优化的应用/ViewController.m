@@ -12,6 +12,7 @@
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 {
     NSMutableArray *_shops;
+    NSMutableArray *_deleteShops;   // 存放即将要删除的模型数据 (此时存放的是Shop对象)
 }
 
 @end
@@ -46,6 +47,9 @@
         // 2.2.将模型对象放进数组中
         [_shops addObject:s];
         
+    // 3. 初始化_deleteShops
+        _deleteShops = [NSMutableArray array];
+        
     }
     }
 
@@ -77,6 +81,14 @@
     // 4.1.商品图片
     cell.imageView.image = [UIImage imageNamed:s.icon];
     
+    // 检测打钩状态
+    // 加深对- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath方法调用过程的理解
+    if ([_deleteShops containsObject:s]) {  // 注:虽然可视范围中利用的是循环利用的cell,但其数据各不相同,可借此作为判断(比较)的依据(利用数据源方法，数据模型思想)
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }else { // 不需要打钩
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
     // 4.2.商品名称
     cell.textLabel.text = s.name; // NOT "[NSString stringWithFormat:s.name]"
     
@@ -94,6 +106,38 @@
 {
     return 60;
 }
+
+#pragma mark 监听cell的点击
+#pragma mark 选中了某一行就会调用
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // 每个cell都有选中状态（selected）
+    // 家居 --> 未选中 selected = NO
+    // 美食 --> 选中 selected = YES
+    
+    // 0.取消选中这一行（去掉cell默认的蓝色背景）
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    //  1.取出indexPath这行对应的cell
+    
+//    直接将所选行“打钩”  缺陷: 因为cell是循环利用的，即将出现的相应cell亦被"打钩"
+//    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+//    selectedCell.accessoryType = UITableViewCellAccessoryCheckmark;
+    
+    Shop *s = _shops[(int)indexPath.row];   // 注：虽然可视范围中利用的是循环利用的cell，但其数据各不相同，可借此作为判断(比较)的依据
+    [_deleteShops addObject:s];
+    
+    // 2.刷新表格
+    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:(UITableViewRowAnimationFade)];     // 刷新所选cell -- 添加"打钩"效果
+    
+    
+}
+ 
+
+#pragma mark 取消选中了某一行就会调用
+//- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//}
 
 
 - (void)didReceiveMemoryWarning {

@@ -76,6 +76,28 @@
 }
 ```
 
+##### 6. 代理方法
+
+```
+#pragma mark 每一行的高度
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+
+#pragma mark 监听cell的点击
+#pragma mark 选中了某一行就会调用
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // 每个cell都有选中状态（selected）
+    // 家居 --> 未选中 selected = NO
+    // 美食 --> 选中 selected = YES
+    
+    ......
+    
+}
+
+#pragma mark 取消选中了某一行就会调用
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+```
+
 
 
 ### 二、UIAlertController
