@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E49EA2EF203F11E900292611 /* news.plist in Resources */ = {isa = PBXBuildFile; fileRef = E49EA2EE203F11E900292611 /* news.plist */; };
+		E49EA2F2203F145F00292611 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = E49EA2F1203F145F00292611 /* News.m */; };
+		E49EA2F5203F1B3000292611 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49EA2F4203F1B3000292611 /* NewsCell.m */; };
 		E4D6C4E3203DB0440016C9D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6C4E2203DB0440016C9D8 /* AppDelegate.m */; };
-		E4D6C4E6203DB0440016C9D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6C4E5203DB0440016C9D8 /* ViewController.m */; };
 		E4D6C4E9203DB0440016C9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D6C4E7203DB0440016C9D8 /* Main.storyboard */; };
 		E4D6C4EB203DB0440016C9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D6C4EA203DB0440016C9D8 /* Assets.xcassets */; };
 		E4D6C4EE203DB0440016C9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D6C4EC203DB0440016C9D8 /* LaunchScreen.storyboard */; };
@@ -37,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E49EA2EE203F11E900292611 /* news.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = news.plist; sourceTree = "<group>"; };
+		E49EA2F0203F145F00292611 /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		E49EA2F1203F145F00292611 /* News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		E49EA2F3203F1B3000292611 /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		E49EA2F4203F1B3000292611 /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		E4D6C4DE203DB0440016C9D8 /* 17-UITableView01-自定义Cell01-通过xib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "17-UITableView01-自定义Cell01-通过xib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D6C4E1203DB0440016C9D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4D6C4E2203DB0440016C9D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4D6C4E4203DB0440016C9D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4D6C4E5203DB0440016C9D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4D6C4E8203DB0440016C9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4D6C4EA203DB0440016C9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D6C4ED203DB0440016C9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,16 +113,19 @@
 			children = (
 				E4D6C4E1203DB0440016C9D8 /* AppDelegate.h */,
 				E4D6C4E2203DB0440016C9D8 /* AppDelegate.m */,
-				E4D6C4E4203DB0440016C9D8 /* ViewController.h */,
-				E4D6C4E5203DB0440016C9D8 /* ViewController.m */,
 				E4D6C4E7203DB0440016C9D8 /* Main.storyboard */,
 				E4D6C4EA203DB0440016C9D8 /* Assets.xcassets */,
+				E49EA2EE203F11E900292611 /* news.plist */,
 				E4D6C4EC203DB0440016C9D8 /* LaunchScreen.storyboard */,
 				E4D6C4EF203DB0440016C9D8 /* Info.plist */,
 				E4D6C4F0203DB0440016C9D8 /* main.m */,
 				E4D6C516203DC4B20016C9D8 /* NewsTableViewController.h */,
 				E4D6C517203DC4B20016C9D8 /* NewsTableViewController.m */,
+				E49EA2F3203F1B3000292611 /* NewsCell.h */,
+				E49EA2F4203F1B3000292611 /* NewsCell.m */,
 				E4D6C519203DC4C60016C9D8 /* NewsCell.xib */,
+				E49EA2F0203F145F00292611 /* News.h */,
+				E49EA2F1203F145F00292611 /* News.m */,
 			);
 			path = "17-UITableView01-自定义Cell01-通过xib";
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49EA2EF203F11E900292611 /* news.plist in Resources */,
 				E4D6C4EE203DB0440016C9D8 /* LaunchScreen.storyboard in Resources */,
 				E4D6C4EB203DB0440016C9D8 /* Assets.xcassets in Resources */,
 				E4D6C51A203DC4C60016C9D8 /* NewsCell.xib in Resources */,
@@ -275,8 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D6C518203DC4B20016C9D8 /* NewsTableViewController.m in Sources */,
-				E4D6C4E6203DB0440016C9D8 /* ViewController.m in Sources */,
 				E4D6C4F1203DB0440016C9D8 /* main.m in Sources */,
+				E49EA2F2203F145F00292611 /* News.m in Sources */,
+				E49EA2F5203F1B3000292611 /* NewsCell.m in Sources */,
 				E4D6C4E3203DB0440016C9D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

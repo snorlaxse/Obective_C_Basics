@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>100</integer>
+		<key>icon</key>
+		<string>小埋00.jpg</string>
+		<key>title</key>
+		<string>库克采访实录：苹果究竟是怎样一家公司？</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>200</integer>
+		<key>icon</key>
+		<string>小埋01.jpg</string>
+		<key>title</key>
+		<string>苹果：所有新App必须基于iOS 11、支持iPhone X</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>300</integer>
+		<key>icon</key>
+		<string>小埋02.jpg</string>
+		<key>title</key>
+		<string>iPhone再遇字符崩溃bug 苹果已着手解决</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>400</integer>
+		<key>icon</key>
+		<string>小埋03.jpg</string>
+		<key>title</key>
+		<string>苹果发布iOS 11.2.6，修复特殊字符导致的闪退问题</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>500</integer>
+		<key>icon</key>
+		<string>小埋04.jpg</string>
+		<key>title</key>
+		<string>苹果与长江存储谈判 iPhone有望使用国产闪存</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>600</integer>
+		<key>icon</key>
+		<string>小埋05.jpg</string>
+		<key>title</key>
+		<string>去年Q4全球智能手机收入中 iPhone占了一半</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>700</integer>
+		<key>icon</key>
+		<string>小埋06.jpg</string>
+		<key>title</key>
+		<string>因iPhone X减产 三星四处推销OLED库存</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>800</integer>
+		<key>icon</key>
+		<string>小埋07.jpg</string>
+		<key>title</key>
+		<string>HomePod成本公开 利润最低的苹果产品</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<integer>900</integer>
+		<key>icon</key>
+		<string>小埋08.jpg</string>
+		<key>title</key>
+		<string>iPhone SE 2再曝：4.2英寸屏幕 WWDC发布
+iPhone SE 2再曝：4.2英寸屏幕 WWDC发布
+iPhone SE 2再曝：4.2英寸屏幕 WWDC发布
+</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>威锋网</string>
+		<key>comments</key>
+		<real>1000</real>
+		<key>icon</key>
+		<string>小埋09.jpg</string>
+		<key>title</key>
+		<string>WWDC2018或将6月上旬在圣何塞会议中心举行</string>
+	</dict>
+</array>
+</plist>

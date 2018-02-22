@@ -156,3 +156,59 @@ UIAlertController *alertController = [UIAlertController alertControllerWithTitle
 [self presentViewController:alertController animated:YES completion:nil];
 ```
 
+
+
+### 三、通过nib自定义cell
+
+##### 1. 加载xib文件的两种方法
+
+1> 方法一(NewsCell是xib文件的名称)
+
+```
+NSArray *objects = [[NSBundle mainBundle] loadNibNamed:@"NewsCell" owner:nil options:nil];
+```
+
+2> 方法二
+
+```
+UINib *nib = [UINib nibWithNibName:@"NewsCell" bundle:nil];
+NSArray *objects = [nib instantiateWithOwner:nil options:nil];  
+```
+
+
+
+##### 2.设置cell高度
+
+1> 如果每一行cell高度都是一样的，直接使用`tableView`的`rowHeight`属性设置cell的高度即可
+
+```
+self.tableView.rowHeight = 80;
+```
+
+2>  如果每一行cell高度不一定一样，应该用代理方法设置cell的高度
+
+```
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	// 返回indexPath这行对应cell的高度
+    return 80;
+}
+```
+
+
+
+##### 3.UITableViewController
+
+1> UITableViewController内部默认会创建一个`UITableView *tableView`
+
+2> UITableViewController内部tableView的delegate(代理)和dataSource(数据源)就是这个UITableViewController
+
+3> UITableViewController内部tableView就是控制器的view
+
+
+
+##### 4. 自定义cell
+
+1. 通过xib
+   1. 一定要注意在xib的cell中设置重用标识(reuse identifier)
+   2. ​
