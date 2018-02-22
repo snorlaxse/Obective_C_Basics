@@ -211,4 +211,4 @@ self.tableView.rowHeight = 80;
 
 1. 通过xib
    1. 一定要注意在xib的cell中设置重用标识(reuse identifier)
-   2. ​
+   2. 封装的步骤
