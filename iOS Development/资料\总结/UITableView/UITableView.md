@@ -211,4 +211,33 @@ self.tableView.rowHeight = 80;
 
 1. 通过xib
    1. 一定要注意在xib的cell中设置重用标识(reuse identifier)
+
    2. 封装的步骤
+
+      1. 新建xib描述cell的样子—DealCell.xib
+      2. 新建UITableViewCell的子类—DealCell(封装xib内部的所有东西)
+      3. 修改xib中的cell的类名(class)为DealCell 
+      4. 在DealCell中拥有xib中的所有子控件(声明属性、进行连线)
+      5. 新建模型Deal，封装数据
+      6. 给DealCell增加模型属性`@property(nonatomic,strong) Deal *deal;`
+      7. 重写setDeal:方法，在这个方法中根据模型数据设置cell内部子控件的属性
+      8. 提供一个类方法，返回从xib中创建好的cell对象
+      9. 给xib中的cell添加一个重用标识(比如deal),提供一个类方法，返回重用标识
+      10. 提供一个类方法，返回cell的高度`(CGFloat)cellHeight;`
+
+   3. 使用cell
+
+      1. 设置每一行的高度`self.tableView.rowHeight = [DealCell cellHeight];`
+
+      2. 利用重用标识去缓存池取得cell`DealCell *cell = [tableView dequeueReusableCellWithIdentifier:[DealCell ID]];`
+
+      3. 如果缓存池没有cell，创建cell
+
+         ```
+         if (cell == nil) {
+                 cell = [DealCell dealCell];
+             }
+         ```
+
+      4. 传递模型给cell    `cell.deal = _deals[indexPath.row];`
+

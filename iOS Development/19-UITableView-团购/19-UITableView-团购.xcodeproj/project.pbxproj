@@ -15,6 +15,9 @@
 		E4EFFD10204C4D5400A847E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFD0F204C4D5400A847E0 /* main.m */; };
 		E4EFFD1A204C4D5400A847E0 /* _9_UITableView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFD19204C4D5400A847E0 /* _9_UITableView___Tests.m */; };
 		E4EFFD25204C4D5400A847E0 /* _9_UITableView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFD24204C4D5400A847E0 /* _9_UITableView___UITests.m */; };
+		E4EFFD33204C4EE700A847E0 /* DealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EFFD32204C4EE700A847E0 /* DealCell.xib */; };
+		E4EFFD39204C51BE00A847E0 /* DealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFD38204C51BE00A847E0 /* DealCell.m */; };
+		E4EFFD3C204C539F00A847E0 /* Deal.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFD3B204C539F00A847E0 /* Deal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		E4EFFD20204C4D5400A847E0 /* 19-UITableView-团购UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "19-UITableView-团购UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EFFD24204C4D5400A847E0 /* _9_UITableView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_9_UITableView___UITests.m"; sourceTree = "<group>"; };
 		E4EFFD26204C4D5400A847E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EFFD32204C4EE700A847E0 /* DealCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealCell.xib; sourceTree = "<group>"; };
+		E4EFFD37204C51BE00A847E0 /* DealCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealCell.h; sourceTree = "<group>"; };
+		E4EFFD38204C51BE00A847E0 /* DealCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealCell.m; sourceTree = "<group>"; };
+		E4EFFD3A204C539F00A847E0 /* Deal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deal.h; sourceTree = "<group>"; };
+		E4EFFD3B204C539F00A847E0 /* Deal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,11 @@
 				E4EFFD03204C4D5400A847E0 /* ViewController.h */,
 				E4EFFD04204C4D5400A847E0 /* ViewController.m */,
 				E4EFFD06204C4D5400A847E0 /* Main.storyboard */,
+				E4EFFD32204C4EE700A847E0 /* DealCell.xib */,
+				E4EFFD37204C51BE00A847E0 /* DealCell.h */,
+				E4EFFD38204C51BE00A847E0 /* DealCell.m */,
+				E4EFFD3A204C539F00A847E0 /* Deal.h */,
+				E4EFFD3B204C539F00A847E0 /* Deal.m */,
 				E4EFFD09204C4D5400A847E0 /* Assets.xcassets */,
 				E4EFFD0B204C4D5400A847E0 /* LaunchScreen.storyboard */,
 				E4EFFD0E204C4D5400A847E0 /* Info.plist */,
@@ -241,6 +254,7 @@
 				E4EFFD0D204C4D5400A847E0 /* LaunchScreen.storyboard in Resources */,
 				E4EFFD0A204C4D5400A847E0 /* Assets.xcassets in Resources */,
 				E4EFFD08204C4D5400A847E0 /* Main.storyboard in Resources */,
+				E4EFFD33204C4EE700A847E0 /* DealCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EFFD3C204C539F00A847E0 /* Deal.m in Sources */,
 				E4EFFD05204C4D5400A847E0 /* ViewController.m in Sources */,
 				E4EFFD10204C4D5400A847E0 /* main.m in Sources */,
 				E4EFFD02204C4D5400A847E0 /* AppDelegate.m in Sources */,
+				E4EFFD39204C51BE00A847E0 /* DealCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
