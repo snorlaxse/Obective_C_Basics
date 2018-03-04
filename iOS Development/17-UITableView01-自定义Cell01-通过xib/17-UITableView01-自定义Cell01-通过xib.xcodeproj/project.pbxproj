@@ -121,11 +121,11 @@
 				E4D6C4F0203DB0440016C9D8 /* main.m */,
 				E4D6C516203DC4B20016C9D8 /* NewsTableViewController.h */,
 				E4D6C517203DC4B20016C9D8 /* NewsTableViewController.m */,
-				E49EA2F3203F1B3000292611 /* NewsCell.h */,
-				E49EA2F4203F1B3000292611 /* NewsCell.m */,
 				E4D6C519203DC4C60016C9D8 /* NewsCell.xib */,
 				E49EA2F0203F145F00292611 /* News.h */,
 				E49EA2F1203F145F00292611 /* News.m */,
+				E49EA2F3203F1B3000292611 /* NewsCell.h */,
+				E49EA2F4203F1B3000292611 /* NewsCell.m */,
 			);
 			path = "17-UITableView01-自定义Cell01-通过xib";
 			sourceTree = "<group>";

@@ -45,4 +45,9 @@
     _iconView.image = [UIImage imageNamed:news.icon];
     
 }
+
++ (NSString *)ID
+{
+    return @"news";
+}
 @end

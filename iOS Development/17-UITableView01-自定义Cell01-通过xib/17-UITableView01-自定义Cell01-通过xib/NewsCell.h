@@ -17,5 +17,5 @@
 @property (nonatomic,strong) News *news;
 
 + (id)newsCell;
-
++ (NSString *)ID;
 @end

@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4EFFCBC204C41BE00A847E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCBB204C41BE00A847E0 /* AppDelegate.m */; };
+		E4EFFCBF204C41BE00A847E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCBE204C41BE00A847E0 /* ViewController.m */; };
+		E4EFFCC2204C41BE00A847E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EFFCC0204C41BE00A847E0 /* Main.storyboard */; };
+		E4EFFCC4204C41BE00A847E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EFFCC3204C41BE00A847E0 /* Assets.xcassets */; };
+		E4EFFCC7204C41BE00A847E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EFFCC5204C41BE00A847E0 /* LaunchScreen.storyboard */; };
+		E4EFFCCA204C41BE00A847E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCC9204C41BE00A847E0 /* main.m */; };
+		E4EFFCD4204C41BE00A847E0 /* _8___cell_xib___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCD3204C41BE00A847E0 /* _8___cell_xib___Tests.m */; };
+		E4EFFCDF204C41BE00A847E0 /* _8___cell_xib___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCDE204C41BE00A847E0 /* _8___cell_xib___UITests.m */; };
+		E4EFFCF1204C42DA00A847E0 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCEC204C42D900A847E0 /* News.m */; };
+		E4EFFCF2204C42DA00A847E0 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EFFCED204C42DA00A847E0 /* NewsCell.xib */; };
+		E4EFFCF3204C42DA00A847E0 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFFCEF204C42DA00A847E0 /* NewsCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4EFFCD0204C41BE00A847E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EFFCAF204C41BE00A847E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EFFCB6204C41BE00A847E0;
+			remoteInfo = "18-演示cell-xib的重用";
+		};
+		E4EFFCDB204C41BE00A847E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EFFCAF204C41BE00A847E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EFFCB6204C41BE00A847E0;
+			remoteInfo = "18-演示cell-xib的重用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4EFFCB7204C41BE00A847E0 /* 18-演示cell-xib的重用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "18-演示cell-xib的重用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EFFCBA204C41BE00A847E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4EFFCBB204C41BE00A847E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4EFFCBD204C41BE00A847E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4EFFCBE204C41BE00A847E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4EFFCC1204C41BE00A847E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4EFFCC3204C41BE00A847E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4EFFCC6204C41BE00A847E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4EFFCC8204C41BE00A847E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EFFCC9204C41BE00A847E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4EFFCCF204C41BE00A847E0 /* 18-演示cell-xib的重用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "18-演示cell-xib的重用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EFFCD3204C41BE00A847E0 /* _8___cell_xib___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8___cell_xib___Tests.m"; sourceTree = "<group>"; };
+		E4EFFCD5204C41BE00A847E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EFFCDA204C41BE00A847E0 /* 18-演示cell-xib的重用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "18-演示cell-xib的重用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EFFCDE204C41BE00A847E0 /* _8___cell_xib___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8___cell_xib___UITests.m"; sourceTree = "<group>"; };
+		E4EFFCE0204C41BE00A847E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EFFCEC204C42D900A847E0 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = News.m; path = "../../17-UITableView01-自定义Cell01-通过xib/17-UITableView01-自定义Cell01-通过xib/News.m"; sourceTree = "<group>"; };
+		E4EFFCED204C42DA00A847E0 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsCell.xib; path = "../../17-UITableView01-自定义Cell01-通过xib/17-UITableView01-自定义Cell01-通过xib/NewsCell.xib"; sourceTree = "<group>"; };
+		E4EFFCEE204C42DA00A847E0 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = News.h; path = "../../17-UITableView01-自定义Cell01-通过xib/17-UITableView01-自定义Cell01-通过xib/News.h"; sourceTree = "<group>"; };
+		E4EFFCEF204C42DA00A847E0 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = "../../17-UITableView01-自定义Cell01-通过xib/17-UITableView01-自定义Cell01-通过xib/NewsCell.m"; sourceTree = "<group>"; };
+		E4EFFCF0204C42DA00A847E0 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCell.h; path = "../../17-UITableView01-自定义Cell01-通过xib/17-UITableView01-自定义Cell01-通过xib/NewsCell.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EFFCB4204C41BE00A847E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EFFCCC204C41BE00A847E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EFFCD7204C41BE00A847E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4EFFCAE204C41BE00A847E0 = {
+			isa = PBXGroup;
+			children = (
+				E4EFFCB9204C41BE00A847E0 /* 18-演示cell-xib的重用 */,
+				E4EFFCD2204C41BE00A847E0 /* 18-演示cell-xib的重用Tests */,
+				E4EFFCDD204C41BE00A847E0 /* 18-演示cell-xib的重用UITests */,
+				E4EFFCB8204C41BE00A847E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EFFCB8204C41BE00A847E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EFFCB7204C41BE00A847E0 /* 18-演示cell-xib的重用.app */,
+				E4EFFCCF204C41BE00A847E0 /* 18-演示cell-xib的重用Tests.xctest */,
+				E4EFFCDA204C41BE00A847E0 /* 18-演示cell-xib的重用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EFFCB9204C41BE00A847E0 /* 18-演示cell-xib的重用 */ = {
+			isa = PBXGroup;
+			children = (
+				E4EFFCBA204C41BE00A847E0 /* AppDelegate.h */,
+				E4EFFCBB204C41BE00A847E0 /* AppDelegate.m */,
+				E4EFFCBD204C41BE00A847E0 /* ViewController.h */,
+				E4EFFCBE204C41BE00A847E0 /* ViewController.m */,
+				E4EFFCC0204C41BE00A847E0 /* Main.storyboard */,
+				E4EFFCEE204C42DA00A847E0 /* News.h */,
+				E4EFFCEC204C42D900A847E0 /* News.m */,
+				E4EFFCF0204C42DA00A847E0 /* NewsCell.h */,
+				E4EFFCEF204C42DA00A847E0 /* NewsCell.m */,
+				E4EFFCED204C42DA00A847E0 /* NewsCell.xib */,
+				E4EFFCC3204C41BE00A847E0 /* Assets.xcassets */,
+				E4EFFCC5204C41BE00A847E0 /* LaunchScreen.storyboard */,
+				E4EFFCC8204C41BE00A847E0 /* Info.plist */,
+				E4EFFCC9204C41BE00A847E0 /* main.m */,
+			);
+			path = "18-演示cell-xib的重用";
+			sourceTree = "<group>";
+		};
+		E4EFFCD2204C41BE00A847E0 /* 18-演示cell-xib的重用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EFFCD3204C41BE00A847E0 /* _8___cell_xib___Tests.m */,
+				E4EFFCD5204C41BE00A847E0 /* Info.plist */,
+			);
+			path = "18-演示cell-xib的重用Tests";
+			sourceTree = "<group>";
+		};
+		E4EFFCDD204C41BE00A847E0 /* 18-演示cell-xib的重用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EFFCDE204C41BE00A847E0 /* _8___cell_xib___UITests.m */,
+				E4EFFCE0204C41BE00A847E0 /* Info.plist */,
+			);
+			path = "18-演示cell-xib的重用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EFFCB6204C41BE00A847E0 /* 18-演示cell-xib的重用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EFFCE3204C41BE00A847E0 /* Build configuration list for PBXNativeTarget "18-演示cell-xib的重用" */;
+			buildPhases = (
+				E4EFFCB3204C41BE00A847E0 /* Sources */,
+				E4EFFCB4204C41BE00A847E0 /* Frameworks */,
+				E4EFFCB5204C41BE00A847E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-演示cell-xib的重用";
+			productName = "18-演示cell-xib的重用";
+			productReference = E4EFFCB7204C41BE00A847E0 /* 18-演示cell-xib的重用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EFFCCE204C41BE00A847E0 /* 18-演示cell-xib的重用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EFFCE6204C41BE00A847E0 /* Build configuration list for PBXNativeTarget "18-演示cell-xib的重用Tests" */;
+			buildPhases = (
+				E4EFFCCB204C41BE00A847E0 /* Sources */,
+				E4EFFCCC204C41BE00A847E0 /* Frameworks */,
+				E4EFFCCD204C41BE00A847E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EFFCD1204C41BE00A847E0 /* PBXTargetDependency */,
+			);
+			name = "18-演示cell-xib的重用Tests";
+			productName = "18-演示cell-xib的重用Tests";
+			productReference = E4EFFCCF204C41BE00A847E0 /* 18-演示cell-xib的重用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4EFFCD9204C41BE00A847E0 /* 18-演示cell-xib的重用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EFFCE9204C41BE00A847E0 /* Build configuration list for PBXNativeTarget "18-演示cell-xib的重用UITests" */;
+			buildPhases = (
+				E4EFFCD6204C41BE00A847E0 /* Sources */,
+				E4EFFCD7204C41BE00A847E0 /* Frameworks */,
+				E4EFFCD8204C41BE00A847E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EFFCDC204C41BE00A847E0 /* PBXTargetDependency */,
+			);
+			name = "18-演示cell-xib的重用UITests";
+			productName = "18-演示cell-xib的重用UITests";
+			productReference = E4EFFCDA204C41BE00A847E0 /* 18-演示cell-xib的重用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EFFCAF204C41BE00A847E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = captain;
+				TargetAttributes = {
+					E4EFFCB6204C41BE00A847E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E4EFFCCE204C41BE00A847E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4EFFCB6204C41BE00A847E0;
+					};
+					E4EFFCD9204C41BE00A847E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4EFFCB6204C41BE00A847E0;
+					};
+				};
+			};
+			buildConfigurationList = E4EFFCB2204C41BE00A847E0 /* Build configuration list for PBXProject "18-演示cell-xib的重用" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4EFFCAE204C41BE00A847E0;
+			productRefGroup = E4EFFCB8204C41BE00A847E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EFFCB6204C41BE00A847E0 /* 18-演示cell-xib的重用 */,
+				E4EFFCCE204C41BE00A847E0 /* 18-演示cell-xib的重用Tests */,
+				E4EFFCD9204C41BE00A847E0 /* 18-演示cell-xib的重用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EFFCB5204C41BE00A847E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EFFCC7204C41BE00A847E0 /* LaunchScreen.storyboard in Resources */,
+				E4EFFCC4204C41BE00A847E0 /* Assets.xcassets in Resources */,
+				E4EFFCF2204C42DA00A847E0 /* NewsCell.xib in Resources */,
+				E4EFFCC2204C41BE00A847E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EFFCCD204C41BE00A847E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EFFCD8204C41BE00A847E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EFFCB3204C41BE00A847E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EFFCBF204C41BE00A847E0 /* ViewController.m in Sources */,
+				E4EFFCCA204C41BE00A847E0 /* main.m in Sources */,
+				E4EFFCF1204C42DA00A847E0 /* News.m in Sources */,
+				E4EFFCF3204C42DA00A847E0 /* NewsCell.m in Sources */,
+				E4EFFCBC204C41BE00A847E0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EFFCCB204C41BE00A847E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EFFCD4204C41BE00A847E0 /* _8___cell_xib___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EFFCD6204C41BE00A847E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EFFCDF204C41BE00A847E0 /* _8___cell_xib___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EFFCD1204C41BE00A847E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EFFCB6204C41BE00A847E0 /* 18-演示cell-xib的重用 */;
+			targetProxy = E4EFFCD0204C41BE00A847E0 /* PBXContainerItemProxy */;
+		};
+		E4EFFCDC204C41BE00A847E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EFFCB6204C41BE00A847E0 /* 18-演示cell-xib的重用 */;
+			targetProxy = E4EFFCDB204C41BE00A847E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4EFFCC0204C41BE00A847E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EFFCC1204C41BE00A847E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4EFFCC5204C41BE00A847E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EFFCC6204C41BE00A847E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EFFCE1204C41BE00A847E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4EFFCE2204C41BE00A847E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EFFCE4204C41BE00A847E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5LC679EYX;
+				INFOPLIST_FILE = "18-演示cell-xib的重用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-8---cell-xib---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4EFFCE5204C41BE00A847E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5LC679EYX;
+				INFOPLIST_FILE = "18-演示cell-xib的重用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-8---cell-xib---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4EFFCE7204C41BE00A847E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5LC679EYX;
+				INFOPLIST_FILE = "18-演示cell-xib的重用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-8---cell-xib---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/18-演示cell-xib的重用.app/18-演示cell-xib的重用";
+			};
+			name = Debug;
+		};
+		E4EFFCE8204C41BE00A847E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5LC679EYX;
+				INFOPLIST_FILE = "18-演示cell-xib的重用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-8---cell-xib---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/18-演示cell-xib的重用.app/18-演示cell-xib的重用";
+			};
+			name = Release;
+		};
+		E4EFFCEA204C41BE00A847E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5LC679EYX;
+				INFOPLIST_FILE = "18-演示cell-xib的重用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-8---cell-xib---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "18-演示cell-xib的重用";
+			};
+			name = Debug;
+		};
+		E4EFFCEB204C41BE00A847E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5LC679EYX;
+				INFOPLIST_FILE = "18-演示cell-xib的重用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-8---cell-xib---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "18-演示cell-xib的重用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EFFCB2204C41BE00A847E0 /* Build configuration list for PBXProject "18-演示cell-xib的重用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EFFCE1204C41BE00A847E0 /* Debug */,
+				E4EFFCE2204C41BE00A847E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EFFCE3204C41BE00A847E0 /* Build configuration list for PBXNativeTarget "18-演示cell-xib的重用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EFFCE4204C41BE00A847E0 /* Debug */,
+				E4EFFCE5204C41BE00A847E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EFFCE6204C41BE00A847E0 /* Build configuration list for PBXNativeTarget "18-演示cell-xib的重用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EFFCE7204C41BE00A847E0 /* Debug */,
+				E4EFFCE8204C41BE00A847E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EFFCE9204C41BE00A847E0 /* Build configuration list for PBXNativeTarget "18-演示cell-xib的重用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EFFCEA204C41BE00A847E0 /* Debug */,
+				E4EFFCEB204C41BE00A847E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4EFFCAF204C41BE00A847E0 /* Project object */;
+}

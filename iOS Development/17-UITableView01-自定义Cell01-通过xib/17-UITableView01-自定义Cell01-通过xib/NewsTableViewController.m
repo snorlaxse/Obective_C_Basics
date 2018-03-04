@@ -61,10 +61,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // 0. 定义循环标记
-    NSString *cellIdentifier = @"news";     // 此处注意nib中的identify也应填作"news"
+    //NSString *cellIdentifier = @"news";     // 此处注意nib中的identify也应填作"news"
     
     // 1. 从缓存池中取出cell
-    NewsCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    //NewsCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    NewsCell *cell = [tableView dequeueReusableCellWithIdentifier:[NewsCell ID]];
     
     // 2. 缓存池中没有cell
     if (cell == nil) {
@@ -83,8 +84,6 @@
     
     // 4.传递模型数据
     cell.news = news;
-    
- 
     
     //NSLog(@"%p",cell);    // 设置.xib的”reuse identify“
     
