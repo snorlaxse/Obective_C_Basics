@@ -68,7 +68,6 @@
         
         // 4. 时间
         _time = [[UILabel alloc] init];
-        
         _time.font = kSmallFont;
         [self.contentView addSubview: _time];
         
