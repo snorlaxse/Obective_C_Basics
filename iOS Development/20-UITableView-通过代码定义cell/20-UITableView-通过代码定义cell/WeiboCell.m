@@ -66,6 +66,7 @@
         _vip = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"vip.png"]];
         [self.contentView addSubview: _vip];
         
+        
         // 4. 时间
         _time = [[UILabel alloc] init];
         _time.font = kSmallFont;
