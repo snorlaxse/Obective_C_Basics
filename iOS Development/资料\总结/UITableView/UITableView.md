@@ -241,3 +241,11 @@ self.tableView.rowHeight = 80;
 
       4. 传递模型给cell    `cell.deal = _deals[indexPath.row];`
 
+2. 通过代码
+
+   1. 新建一个UITableViewCell的子类——WeiboCell
+   2. 在创建cell的时候(`-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier`方法中)添加cell内部需要使用的子控件(注意：只管创建添加子控件，先不要去管子控件的位置和尺寸)
+   3. 新建一个模型类——Weibo，增加对应的数据属性
+   4. 给WeiboCell增加一个Weibo模型属性，在拿到Weibo模型数据的同时设置子控件的属性
+   5. 重写`setWeibo:`方法，在这里面取出Weibo模型的数据显示到子控件上
+
