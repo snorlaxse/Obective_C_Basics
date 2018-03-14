@@ -52,12 +52,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // 1.去缓存池中取出cell
+    // 0. 定义一个标识
     static NSString *ID = @"weibo";
     
+    // 1.去缓存池中取出可循环利用的cell
     WeiboCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     
-    // 2.缓存池没有cell，重新创建cell
+    // 2.缓存池没有可循环利用的cell，重新创建cell
     if (cell == nil) {
         cell = [[WeiboCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:ID];
     }

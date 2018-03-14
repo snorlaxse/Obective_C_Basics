@@ -66,6 +66,7 @@
     
     _contentF = CGRectMake(contentX, contentY, contentW, contentSize.height);
     
+//    NSLog(@"%f",contentSize.height);
     
     // 7.配图
     if (_weibo.image) {

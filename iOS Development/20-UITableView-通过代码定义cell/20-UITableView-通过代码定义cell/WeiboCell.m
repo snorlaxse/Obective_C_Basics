@@ -79,6 +79,10 @@
         
         // 6. 微博正文
         _content = [[UILabel alloc] init];
+        _content.font = kDefaultFont;   // 字体大小应与计算frame时保持一致
+        //自动折行设置
+        _content.numberOfLines = 0;
+        
         [self.contentView addSubview: _content];
         
         // 7. 配图
@@ -126,9 +130,7 @@
     // 6. 正文
     _content.frame = _weiboframe.contentF;
     
-    //自动折行设置
-//    _content.lineBreakMode = UILineBreakModeWordWrap;
-    _content.numberOfLines = 0;
+//    NSLog(@"%@",NSStringFromCGRect(_weiboframe.contentF));
     
     // 7.配图
     if (_weiboframe.weibo.image) {

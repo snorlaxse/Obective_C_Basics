@@ -1,0 +1,17 @@
+//
+//  ViewController.h
+//  22-UITableView-删除数据
+//
+//  Created by Captain on 14/03/2018.
+//  Copyright © 2018 captain. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+- (IBAction)remove:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@end
+
